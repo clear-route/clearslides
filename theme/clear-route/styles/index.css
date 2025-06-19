@@ -1,1 +1,85 @@
+/* Font Imports */
+@font-face {
+  font-family: 'Gotham Thin';
+  src: url('/fonts/Gotham-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('/fonts/Gotham-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Book';
+  src: url('/fonts/Gotham-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('/fonts/Gotham-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Black';
+  src: url('/fonts/Gotham-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Ultra';
+  src: url('/fonts/Gotham-Ultra.otf') format('opentype');
+  font-weight: 900; /* Often same as Black, or higher if distinct */
+  font-style: normal;
+}
+
 /* Custom styles for the ClearRoute theme */
+
+:root {
+  --clear-route-green-light: #00e8af;
+  --clear-route-green-dark: #009167;
+  --clear-route-purple: #c4a3ff;
+  --clear-route-orange: #ffb78e;
+  --clear-route-white: #f7f7f7;
+  --clear-route-grey-dark: #232836;
+
+  /* Assigning to Slidev's default CSS variables for easier integration */
+  --slidev-theme-primary: var(--clear-route-green-light);
+  --slidev-theme-secondary: var(--clear-route-green-dark);
+  --slidev-theme-text-color: var(--clear-route-grey-dark);
+  --slidev-theme-background: var(--clear-route-white);
+
+  /* Custom Fonts */
+  --font-heading: "Gotham Black", sans-serif;
+  --font-body: "Gotham Light", sans-serif;
+
+  /* Background Gradients from Canva designs */
+  --gradient-title-slide: linear-gradient(to right, #232836, #009167); /* Approximation */
+  --gradient-content-slide: linear-gradient(to right, #232836, #c4a3ff); /* Approximation */
+}
+
+/* Basic styling using the new color and font variables */
+.slidev-layout {
+  background-color: var(--slidev-theme-background);
+  color: var(--slidev-theme-text-color);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--slidev-theme-primary);
+}
+
+a {
+  color: var(--slidev-theme-secondary);
+}
+
+/* Specific layout styles will be applied in Vue components */

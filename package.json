@@ -7,8 +7,8 @@
     "export": "slidev export"
   },
   "dependencies": {
-    "@slidev/cli": "^0.47.0",
-    "@slidev/theme-default": "*",
+    "@slidev/cli": "^51.8.2",
+    "slidev-theme-clear-route": "file:./theme/clear-route",
     "vue": "^3.3.4"
   }
 }
