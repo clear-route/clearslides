@@ -3,5 +3,6 @@ theme: 'clear-route'
 layout: title
 ---
 
-# Title Slide
-Hello
+<template v-slot:heading>HEADING</template>
+<template v-slot:subheading>PRESENTATION</template>
+<template v-slot:date>April 2025</template>

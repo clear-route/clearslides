@@ -66,6 +66,19 @@
   --gradient-content-slide: linear-gradient(to right, #232836, #c4a3ff); /* Approximation */
 }
 
+/* Utility classes for colors */
+.text-clear-route-white {
+  color: var(--clear-route-white);
+}
+
+.text-clear-route-green-light {
+  color: var(--clear-route-green-light);
+}
+
+.text-clear-route-grey-dark {
+  color: var(--clear-route-grey-dark);
+}
+
 /* Basic styling using the new color and font variables */
 .slidev-layout {
   background-color: var(--slidev-theme-background);
