@@ -62,8 +62,8 @@
   --font-body: "Gotham Light", sans-serif;
 
   /* Background Gradients */
-  --gradient-dark-to-green: linear-gradient(to right, var(--clear-route-grey-dark), var(--clear-route-green-dark));
-  --gradient-dark-to-purple: linear-gradient(to right, var(--clear-route-grey-dark), var(--clear-route-purple));
+  --gradient-dark-to-green: linear-gradient(to right, var(--clear-route-grey-dark) 70%, var(--clear-route-green-dark));
+  --gradient-dark-to-purple: linear-gradient(110deg, var(--clear-route-grey-dark) 40%, var(--clear-route-purple) 200%);
 }
 
 /* Utility classes for colors */

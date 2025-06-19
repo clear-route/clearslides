@@ -13,7 +13,7 @@
       <h3 class="text-md uppercase font-bold text-clear-route-purple mt-4 m-0 p-0" :style="{ fontFamily: 'var(--font-heading)' }">
         <slot name="sub-heading" />
       </h3>
-      <div class="text-clear-route-white mt-4">
+      <div class="text-clear-route-white mt-4 whitespace-pre-wrap">
         <slot />
       </div>
     </div>
