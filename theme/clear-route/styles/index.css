@@ -37,7 +37,7 @@
 @font-face {
   font-family: 'Gotham Ultra';
   src: url('/fonts/Gotham-Ultra.otf') format('opentype');
-  font-weight: 900; /* Often same as Black, or higher if distinct */
+  font-weight: 900;
   font-style: normal;
 }
 
@@ -61,9 +61,9 @@
   --font-heading: "Gotham Black", sans-serif;
   --font-body: "Gotham Light", sans-serif;
 
-  /* Background Gradients from Canva designs */
-  --gradient-title-slide: linear-gradient(to right, #232836, #009167); /* Approximation */
-  --gradient-content-slide: linear-gradient(to right, #232836, #c4a3ff); /* Approximation */
+  /* Background Gradients */
+  --gradient-dark-to-green: linear-gradient(to right, var(--clear-route-grey-dark), var(--clear-route-green-dark));
+  --gradient-dark-to-purple: linear-gradient(to right, var(--clear-route-grey-dark), var(--clear-route-purple));
 }
 
 /* Utility classes for colors */
@@ -93,6 +93,14 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
   color: var(--slidev-theme-primary);
+}
+
+h1, h2 {
+  line-height: 0.9;
+}
+
+h3, h4, h5, h6 {
+  line-height: 1.2;
 }
 
 a {

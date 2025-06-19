@@ -8,7 +8,7 @@ layout: title
 <template v-slot:date>April 2025</template>
 
 ---
-layout: content-v
+layout: section-title
 ---
 
 <template v-slot:phase>PHASE 2</template>
