@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="2533" height="713" viewBox="0 0 2533 713" fill="none">
+<path d="M0 532.166L0.00535675 676.497L373 571.801L372.995 431.984L0 532.166Z" fill="url(#paint0_linear_2709_27411)"/>
+<path d="M373 572.151L373.005 712.16L1453 460.222L1453 310L373 572.151Z" fill="url(#paint1_linear_2709_27411)"/>
+<path d="M1453 262.151L1453.01 309.66L2533.01 57.7215L2533 0L1453 262.151Z" fill="url(#paint2_linear_2709_27411)"/>
+<defs>
+<linearGradient id="paint0_linear_2709_27411" x1="1376" y1="-358.854" x2="-15" y2="718" gradientUnits="userSpaceOnUse">
+<stop offset="0.11" stop-color="#B9DCDD"/>
+<stop offset="0.165" stop-color="#B0DDD5"/>
+<stop offset="0.22" stop-color="#A6DDCC"/>
+<stop offset="0.43" stop-color="#7EE1AA"/>
+<stop offset="0.66" stop-color="#97C6CC"/>
+<stop offset="0.797416" stop-color="#BAA1FC"/>
+<stop offset="0.9999"/>
+<stop offset="1" stop-color="#04E5AC"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2709_27411" x1="-51" y1="854.921" x2="1446.47" y2="686.836" gradientUnits="userSpaceOnUse">
+<stop stop-color="#09E8AF"/>
+<stop offset="1" stop-color="#242836"/>
+</linearGradient>
+<linearGradient id="paint2_linear_2709_27411" x1="1757" y1="177.5" x2="803.5" y2="364.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#242836"/>
+<stop offset="0.529047" stop-color="#C4A3FF"/>
+</linearGradient>
+</defs>
+</svg>

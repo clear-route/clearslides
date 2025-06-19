@@ -1,0 +1,35 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Capa_1" version="1.1" viewBox="0 0 1683 991" width="1683" height="991">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#Degradado_sin_nombre);
+      }
+
+      .st1 {
+        fill: url(#Degradado_sin_nombre_3);
+      }
+
+      .st2 {
+        fill: url(#Degradado_sin_nombre_2);
+      }
+    </style>
+    <linearGradient id="Degradado_sin_nombre" data-name="Degradado sin nombre" x1="665.3" y1="994.2" x2="8.2" y2="497.1" gradientTransform="translate(0 992) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".1" stop-color="#04e5ac"/>
+      <stop offset="1" stop-color="#2b4f4d"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_2" data-name="Degradado sin nombre 2" x1="579.3" y1="844.7" x2="585.6" y2="584.5" gradientTransform="translate(0 992) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0fe2a9"/>
+      <stop offset="1" stop-color="#192f29"/>
+    </linearGradient>
+    <linearGradient id="Degradado_sin_nombre_3" data-name="Degradado sin nombre 3" x1="372.2" y1="621.1" x2="1901.1" y2="-162.5" gradientTransform="translate(0 992) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset=".2" stop-color="#26ae8b"/>
+      <stop offset=".6" stop-color="#242836" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <path class="st0" d="M528.4,0L0,352v247.9L528.4,250.5V0Z"/>
+  <path class="st2" d="M528.3,250.5l117.1-58.3v395.4l-43.9-22.5-78-40.5,4.9-274.1Z"/>
+  <path class="st1" d="M427,477.2v-160.2l1255.9,673h-262.5L427,477.2Z"/>
+</svg>

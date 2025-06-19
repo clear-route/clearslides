@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="310" viewBox="0 0 300 310" fill="none">
+<ellipse cx="70.4482" cy="61.3606" rx="61.3622" ry="61.3606" fill="url(#paint0_linear_2657_22088)"/>
+<rect x="168.188" y="4.54688" width="118.179" height="118.176" fill="url(#paint1_linear_2657_22088)"/>
+<path d="M227.274 163.625L290.257 272.711H164.292L227.274 163.625Z" fill="#C1A3FD"/>
+<path d="M74.9983 149.992L91.8365 201.813H146.326L102.243 233.841L119.081 285.662L74.9983 253.635L30.9154 285.662L47.7536 233.841L3.67068 201.813H58.1601L74.9983 149.992Z" fill="#C1A3FD"/>
+<defs>
+<linearGradient id="paint0_linear_2657_22088" x1="184.611" y1="267.679" x2="68.1808" y2="-15.9105" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C4A3FF"/>
+<stop offset="1" stop-color="white"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2657_22088" x1="166.15" y1="-23.072" x2="286.144" y2="96.9253" gradientUnits="userSpaceOnUse">
+<stop stop-color="white"/>
+<stop offset="1" stop-color="#C1A3FD"/>
+</linearGradient>
+</defs>
+</svg>

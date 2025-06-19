@@ -79,6 +79,10 @@
   color: var(--clear-route-grey-dark);
 }
 
+.text-clear-route-purple {
+  color: var(--clear-route-purple);
+}
+
 /* Basic styling using the new color and font variables */
 .slidev-layout {
   background-color: var(--slidev-theme-background);
