@@ -102,3 +102,30 @@ bodyColor: 'var(--clear-route-white)'
   <p>This is the main body content. You can add any HTML or text here.</p>
   <p>This is a second paragraph to demonstrate spacing.</p>
 </template>
+
+---
+layout: empty
+backgroundGradient: 'var(--gradient-dark-to-green)'
+---
+
+<template v-slot:body>
+  <p>This is the main body content. You can add any HTML or text here.</p>
+</template>
+
+---
+layout: empty
+backgroundGradient: 'var(--gradient-dark-to-purple)'
+---
+
+<template v-slot:body>
+  <p>This is the main body content. You can add any HTML or text here.</p>
+</template>
+
+---
+layout: empty
+backgroundGradient: 'var(--gradient-dark-to-orange)'
+---
+
+<template v-slot:body>
+  <p>This is the main body content. You can add any HTML or text here.</p>
+</template>
