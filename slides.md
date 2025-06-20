@@ -147,3 +147,29 @@ backgroundGradient: 'var(--clear-route-grey-dark)'
   <!-- <Logo name="logo-landscape" height="h-15" /> -->
   <p class="text-clear-route-white">Collinson is a global leader in customer benefits and loyalty, with a focus on travel and lifestyle. They needed to transform their Route to Live to ensure stability and scalability.</p>
 </template>
+
+---
+layout: three-column
+backgroundGradient: 'var(--clear-route-grey-dark)'
+verticalAlignment: 'top'
+---
+
+<template v-slot:heading>
+  <span class="text-clear-route-orange block">Headline</span>
+  <span class="text-clear-route-white block">Example</span>
+</template>
+
+<template v-slot:left>
+  <h3 class="text-clear-route-white">Challenge</h3>
+  <p class="text-clear-route-white">Collinson's Route to Live was fragmented and inefficient, leading to delays and inconsistencies in product delivery.</p>
+</template>
+
+<template v-slot:center>
+  <h3 class="text-clear-route-white">Solution</h3>
+  <p class="text-clear-route-white">We implemented a unified platform that streamlined processes, improved collaboration, and enhanced product delivery speed.</p>
+</template>
+
+<template v-slot:right>
+  <h3 class="text-clear-route-white">Results</h3>
+  <p class="text-clear-route-white">The new platform reduced delivery times by 30%, improved team collaboration, and increased overall product quality.</p>
+</template>
