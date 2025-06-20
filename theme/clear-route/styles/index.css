@@ -51,6 +51,7 @@
   --clear-route-white: #f7f7f7;
   --clear-route-grey-dark: #232836;
 
+
   /* Assigning to Slidev's default CSS variables for easier integration */
   --slidev-theme-primary: var(--clear-route-green-light);
   --slidev-theme-secondary: var(--clear-route-green-dark);
@@ -62,8 +63,14 @@
   --font-body: "Gotham Light", sans-serif;
 
   /* Background Gradients */
-  --gradient-dark-to-green: linear-gradient(to right, var(--clear-route-grey-dark) 70%, var(--clear-route-green-dark));
-  --gradient-dark-to-purple: linear-gradient(110deg, var(--clear-route-grey-dark) 40%, var(--clear-route-purple) 200%);
+  --gradient-angle: 110deg;
+  --gradient-start-dark: 40%;
+  --gradient-end-dark: 200%;
+  --gradient-start-light: 40%;
+  --gradient-end-light: 110%;
+  --gradient-dark-to-green: linear-gradient(var(--gradient-angle), var(--clear-route-grey-dark) var(--gradient-start-light), var(--clear-route-green-dark) var(--gradient-end-light));
+  --gradient-dark-to-purple: linear-gradient(var(--gradient-angle), var(--clear-route-grey-dark) var(--gradient-start-dark), var(--clear-route-purple) var(--gradient-end-dark));
+  --gradient-dark-to-orange: linear-gradient(var(--gradient-angle), var(--clear-route-grey-dark) var(--gradient-start-light), var(--clear-route-orange) var(--gradient-end-dark));
 }
 
 /* Utility classes for colors */
@@ -101,6 +108,11 @@ h1, h2 {
 
 h3, h4, h5, h6 {
   line-height: 1.2;
+}
+
+p, li, blockquote {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
 }
 
 a {
