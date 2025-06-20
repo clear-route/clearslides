@@ -90,6 +90,10 @@
   color: var(--clear-route-purple);
 }
 
+.text-clear-route-orange {
+  color: var(--clear-route-orange);
+}
+
 /* Basic styling using the new color and font variables */
 .slidev-layout {
   background-color: var(--slidev-theme-background);
