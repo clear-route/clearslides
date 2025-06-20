@@ -155,7 +155,7 @@ verticalAlignment: 'center'
 ---
 
 <template v-slot:heading>
-  <span class="text-clear-route-orange block">Headline</span>
+  <span class="text-clear-route-orange block">Three Column</span>
   <span class="text-clear-route-white block">Example</span>
 </template>
 
@@ -172,6 +172,33 @@ verticalAlignment: 'center'
   <div class="flex flex-col gap-4">
     <icon-item icon="/icons/Opportunity.svg" text="Goal: Achieve decarbonised electricity by 2035, Net-Zero by 2050" />
     <icon-item icon="/icons/Partnership.svg" text="Focus: New systems and technologies to meet business targets" />
+  </div>
+</template>
+
+<template v-slot:right>
+  <h3 class="text-clear-route-white mb-4">Results</h3>
+  <div class="flex flex-col gap-4">
+    <icon-item icon="/icons/Learn.svg" text="Goal: Achieve decarbonised electricity by 2035, Net-Zero by 2050" />
+    <icon-item icon="/icons/Forum.svg" text="Focus: New systems and technologies to meet business targets" />
+  </div>
+</template>
+
+---
+layout: two-column
+backgroundGradient: 'var(--clear-route-grey-dark)'
+verticalAlignment: 'center'
+---
+
+<template v-slot:heading>
+  <span class="text-clear-route-orange block">Two Column</span>
+  <span class="text-clear-route-white block">Example</span>
+</template>
+
+<template v-slot:left>
+  <h3 class="text-clear-route-white mb-4">Challenge</h3>
+  <div class="flex flex-col gap-4">
+    <icon-item icon="/icons/Trust.svg" text="Goal: Achieve decarbonised electricity by 2035, Net-Zero by 2050" />
+    <icon-item icon="/icons/Growth.svg" text="Focus: New systems and technologies to meet business targets" />
   </div>
 </template>
 
