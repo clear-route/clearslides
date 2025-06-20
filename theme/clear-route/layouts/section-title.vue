@@ -1,5 +1,5 @@
 <template>
-  <div class="slidev-layout section-title-slide relative h-full w-full" :style="backgroundStyle">
+  <div class="slidev-layout section-title-slide relative h-full w-full" :style="{ background: backgroundGradient }">
     <div class="absolute left-[-2rem] top-0 h-full w-2/5">
       <img :src="props.imageSrc" class="h-full w-full object-contain" />
     </div>
@@ -37,9 +37,4 @@ const props = defineProps({
     default: 'var(--clear-route-purple)', // Default primary color
   }
 })
-
-// Computed property to use the prop for the background style
-const backgroundStyle = computed(() => ({
-  background: props.backgroundGradient,
-}))
 </script>

@@ -129,3 +129,21 @@ backgroundGradient: 'var(--gradient-dark-to-orange)'
 <template v-slot:body>
   <p>This is the main body content. You can add any HTML or text here.</p>
 </template>
+
+---
+layout: section-overview
+imageSrc: '/graphics/09.svg'
+backgroundGradient: 'var(--clear-route-grey-dark)'
+---
+
+<template v-slot:caption>Case Study</template>
+<template v-slot:heading>
+  <span class="text-clear-route-white block">Transforming</span>
+  <span class="block">priority pass with</span>
+  a unified platform
+</template>
+
+<template v-slot:body>
+  <!-- <Logo name="logo-landscape" height="h-15" /> -->
+  <p class="text-clear-route-white">Collinson is a global leader in customer benefits and loyalty, with a focus on travel and lifestyle. They needed to transform their Route to Live to ensure stability and scalability.</p>
+</template>
