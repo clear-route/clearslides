@@ -151,7 +151,7 @@ backgroundGradient: 'var(--clear-route-grey-dark)'
 ---
 layout: three-column
 backgroundGradient: 'var(--clear-route-grey-dark)'
-verticalAlignment: 'top'
+verticalAlignment: 'center'
 ---
 
 <template v-slot:heading>
@@ -160,16 +160,25 @@ verticalAlignment: 'top'
 </template>
 
 <template v-slot:left>
-  <h3 class="text-clear-route-white">Challenge</h3>
-  <p class="text-clear-route-white">Collinson's Route to Live was fragmented and inefficient, leading to delays and inconsistencies in product delivery.</p>
+  <h3 class="text-clear-route-white mb-4">Challenge</h3>
+  <div class="flex flex-col gap-4">
+    <icon-item icon="/icons/Trust.svg" text="Goal: Achieve decarbonised electricity by 2035, Net-Zero by 2050" />
+    <icon-item icon="/icons/Growth.svg" text="Focus: New systems and technologies to meet business targets" />
+  </div>
 </template>
 
 <template v-slot:center>
-  <h3 class="text-clear-route-white">Solution</h3>
-  <p class="text-clear-route-white">We implemented a unified platform that streamlined processes, improved collaboration, and enhanced product delivery speed.</p>
+  <h3 class="text-clear-route-white mb-4">Solution</h3>
+  <div class="flex flex-col gap-4">
+    <icon-item icon="/icons/Opportunity.svg" text="Goal: Achieve decarbonised electricity by 2035, Net-Zero by 2050" />
+    <icon-item icon="/icons/Partnership.svg" text="Focus: New systems and technologies to meet business targets" />
+  </div>
 </template>
 
 <template v-slot:right>
-  <h3 class="text-clear-route-white">Results</h3>
-  <p class="text-clear-route-white">The new platform reduced delivery times by 30%, improved team collaboration, and increased overall product quality.</p>
+  <h3 class="text-clear-route-white mb-4">Results</h3>
+  <div class="flex flex-col gap-4">
+    <icon-item icon="/icons/Learn.svg" text="Goal: Achieve decarbonised electricity by 2035, Net-Zero by 2050" />
+    <icon-item icon="/icons/Forum.svg" text="Focus: New systems and technologies to meet business targets" />
+  </div>
 </template>
